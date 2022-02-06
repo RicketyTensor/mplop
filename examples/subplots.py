@@ -8,7 +8,7 @@ def grid_layout():
     # Grid layout numbering
     fig = mplop.figure(nrows=2, ncols=2, design="grid", sharex=False, sharey=False, title="Super title",
                        constrained_layout=True, num="Grid layout numbering")
-    fig.annotate_axes()
+    fig.show_index()
 
     # Sharing axes
     fig = mplop.figure(nrows=2, ncols=2, design="grid", sharex=True, sharey=True,
